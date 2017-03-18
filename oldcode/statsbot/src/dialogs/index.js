@@ -1,0 +1,6 @@
+exports.auth = require('./auth.js')
+exports.greetings = require('./greetings.js')
+exports.thanks = require('./thanks.js')
+exports.workflow = require('./workflow.js')
+exports.help = require('./help.js')
+exports.none = require('./none.js')

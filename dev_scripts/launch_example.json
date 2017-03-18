@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible Node.js debug attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            //"program": "${file}",
+            "program": "${workspaceRoot}\\steefulcoxbot\\app.js",
+            "cwd": "${workspaceRoot}",
+            "env": {
+                "APIAI_ACCESS_TOKEN": "72b855a9fb1143d096cb3bf8fd2f7622",
+                "APP_ID": "2bb91e38-d228-45f6-b305-272d2acb39b4",
+                "APP_SECRET": "1OrbFLfBLnvztBYcLTTL7T3",
+                "APIAI_LANG": "en"
+            }
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "Attach to Process",
+            "port": 5858
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "mybot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dstiefe/mybot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dstiefe/mybot/issues"
+  },
+  "homepage": "https://github.com/dstiefe/mybot#readme",
+  "dependencies": {
+    "botbuilder": "3.6.0",
+    "request": "2.79.0",
+    "restify": "4.3.0",
+    "mongoose": "4.8.1",
+    "mongodb": "2.2.22"
+  }
+}

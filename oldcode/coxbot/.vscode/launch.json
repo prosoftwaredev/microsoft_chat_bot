@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible Node.js debug attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceRoot}\\server.js",
+            "cwd": "${workspaceRoot}",
+            "env": {
+                "MICROSOFT_APP_ID": "1b777e47-2fd1-470c-85d4-6edad8536931",
+                "MICROSOFT_APP_PASSWORD": "VMTFPXcO66Lu0mHA0kKoqky",
+                "LUIS_MODEL_API": "https://api.projectoxford.ai/luis/v1/application?id=f07537dd-2b70-407f-9df2-b08d51a714ef&subscription-key=a1357fac781e4acaadf80ce511de25dd"
+            }
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "Attach to Process",
+            "port": 5858
+        }
+    ]
+}

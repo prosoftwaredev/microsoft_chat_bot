@@ -1,0 +1,49 @@
+{
+  "name": "API.AI Skype integration",
+  "description": "Api.ai Skype integration allows you to create Skype bots with natural language understanding based on Api.ai technology.",
+  "repository": "https://github.com/api-ai/apiai-skype-bot",
+  "logo": "http://xvir.github.io/img/apiai.png",
+  "keywords": ["api.ai", "skype", "natural language"],
+  "env": {
+    "APIAI_ACCESS_TOKEN": {
+      "description": "Client access token for Api.ai",
+      "value": "72b855a9fb1143d096cb3bf8fd2f7622"
+    },
+    "APIAI_LANG": {
+      "description": "Agent language",
+      "value": "en",
+      "required": false
+    },
+    "APP_ID": {
+      "description": "Microsoft App ID",
+      "value": "2bb91e38-d228-45f6-b305-272d2acb39b4"
+    },
+    "APP_SECRET": {
+      "description": "Microsoft App Password",
+      "value": "1OrbFLfBLnvztBYcLTTL7T3"
+    },
+    "REDSHIFT_CONNECTION_STRING": {
+      "description": "Redshift connection string",
+      "value": "redshift://dstiefe:DavidAlex2@steeful.cdjttjnusyyn.us-east-1.redshift.amazonaws.com:5439/mytropical"
+    },
+    "REDSHIFT_TABLE_NAME": {
+      "description": "Redshift table name",
+      "value": "mytropical.public.coxrunstats"
+    },
+    "REDSHIFT_DATE_COLUMN_NAME": {
+      "description": "Redshift date name",
+      "value": "MYDATE"
+    },
+     "PORT": {
+      "description": "Bot port",
+      "value": 5000
+    },
+    "MONGODB_CONNECTION_STRING": {
+      "description": "MongoDB connection string",
+      "value": "mongodb://kodz8782:T3Cldb70190h80l@34.195.197.47:27017/Bot"
+    }    
+  },
+  "engines": {
+    "node": "5.10.1"
+  }
+}
